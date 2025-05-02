@@ -1,0 +1,29 @@
+### Test Grammar Checker
+POST http://localhost:8080/check_grammar
+Content-Type: application/json
+
+{
+  "data": {
+    "text": "This sentence have grammar mistake."
+  }
+}
+
+### Test with longer text
+POST http://localhost:8080/check_grammar
+Content-Type: application/json
+
+{
+  "data": {
+    "text": "I writed this paragraph to test the grammer checker. It have many mistake in it. The spellings are wrong and punctuation is not good i think this should be fixed."
+  }
+}
+
+### Test with google cloud run
+POST https://grammar-check-service-6uwc3n3sha-uc.a.run.app/check_grammar
+Content-Type: application/json
+
+{
+  "data": {
+    "text": "This sentence have grammar mistake."
+  }
+}
