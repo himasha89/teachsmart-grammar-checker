@@ -32,8 +32,8 @@ A cloud-based grammar checking service built with Python, Flask, Hugging Face ML
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/himasha89/grammar-check-service.git
-   cd grammar-check-service
+   git clone https://github.com/himasha89/teachsmart-grammar-checker.git
+   cd teachsmart-grammar-checker
    ```
 
 2. Create and activate a virtual environment:
