@@ -10,7 +10,7 @@
                 "FLASK_APP": "main.py",
                 "FLASK_DEBUG": "1",
                 "GOOGLE_APPLICATION_CREDENTIALS": "${workspaceFolder}/firebase-credentials.json",
-                "HUGGINGFACE_API_KEY": "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"
+                "HUGGINGFACE_API_KEY": "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"
             },
             "args": [
                 "run",
